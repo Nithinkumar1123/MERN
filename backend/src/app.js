@@ -28,7 +28,7 @@ app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerJSDocs))
 
 app.get("/", (req, res) => {
   res.send("<h1>Backend in working well, with Title and Description. </h1>");
-  res.send("<h4>Now Start working Frontend </h4>");
+  res.send("<h2>Now Start working Frontend </h2>");
 });
 
 
